@@ -1,0 +1,49 @@
+
+#title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 15px 10px;
+
+}
+#title i{
+    font-size: 30px;
+    opacity: 0.5;
+}
+
+#container{
+    width: 80%;
+    background-color: aliceblue;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+
+}
+
+#app-btn{
+    display: flex;
+    gap: 20px;
+}
+#app-btn button{
+    font-size: 25px;
+    padding: 20px;
+    gap: 202px;
+    border: none;
+}
+
+#app-btn button:hover{
+    background-color: rgb(225, 22, 22);
+    color: rgb(232, 226, 226);
+    cursor: pointer;
+}
+
+#result{
+    font-size: 18px;
+    display: none;
+    font-family: sans-serif;
+    text-align: center;
+}
